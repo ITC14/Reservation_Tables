@@ -1,0 +1,61 @@
+#Name{
+  font-family: 'Markazi Text', Courier, monospace;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #F4CE14;
+  }
+  #City{
+    font-family: 'Markazi Text', Courier, monospace;
+  }
+  .StyleCTA{
+    background-color: #495E57;
+    display: flex;
+    justify-content: start;
+  }
+.VerticalCTA{
+  display: flex;
+  align-items: start;
+  }
+.Description{
+    font-family: "Karla", monospace;
+}
+#City,.Description{
+    color: white;
+}
+#HeroImage{
+    border-radius: 2rem;
+    width: 20vw;
+    height: 20rem;
+    margin: 4rem;
+    position: absolute;
+    top: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    z-index:1;
+    width: 20rem ;
+    height: 20rem;
+    object-fit: cover;
+}
+.Booking{
+  background-color: #F4CE14;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Booking:hover{
+color: white;
+background-color: hsl(50, 91%, 42%);
+}
+.BtnLink{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: none;
+  border-radius: 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+.BtnLink:hover{
+  color: white !important;
+}

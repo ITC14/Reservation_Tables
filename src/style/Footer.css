@@ -1,0 +1,7 @@
+.H3{
+    border-bottom: #F4CE14 dashed 0.2rem;
+}
+.FooterLink:hover{
+    color: #F4CE14;
+    cursor: pointer;
+}

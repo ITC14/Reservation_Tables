@@ -9,6 +9,11 @@
     margin: 0 5rem ;
   }
   .CustomLink{
-    color:red;
+    color: #495E57;
     text-decoration: none;
+    font-weight: bold;
   }
+  .CustomLink:hover{
+    color: #F4CE14;
+  }
+  

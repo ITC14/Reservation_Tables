@@ -4,7 +4,7 @@ import Nav from "./Nav";
 function Header(){
     return(
         <>
-            <HStack spacing={5} margin={50} justifyContent="center">
+            <HStack spacing={60} margin={50} justifyContent="center">
                 <img src={logo} alt="Logo"/>
                 <Nav/>
             </HStack>
