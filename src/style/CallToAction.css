@@ -17,7 +17,7 @@
   align-items: start;
   }
 .Description{
-    font-family: "Karla", monospace;
+    font-family: "Karla", "calibri";
 }
 #City,.Description{
     color: white;
@@ -25,7 +25,7 @@
 #HeroImage{
     border-radius: 2rem;
     width: 20vw;
-    height: 20rem;
+    height: 20vh;
     margin: 4rem;
     position: absolute;
     top: 0;
@@ -41,6 +41,7 @@
   padding: 1rem 2rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
+  font-family: "Markazi Text";
 }
 
 .Booking:hover{
@@ -50,7 +51,7 @@ background-color: hsl(50, 91%, 42%);
 .BtnLink{
   text-decoration: none;
   padding: 0.5rem 1rem;
-  color: black;
+  color: #495E57;
   border: none;
   border-radius: 2rem;
   font-size: large;
